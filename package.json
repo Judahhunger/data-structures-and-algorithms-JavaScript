@@ -1,0 +1,22 @@
+{
+  "name": "data-structures-and-algorithms-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Judahhunger/data-structures-and-algorithms-JavaScript.git"
+  },
+  "author": "Judah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Judahhunger/data-structures-and-algorithms-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Judahhunger/data-structures-and-algorithms-JavaScript#readme",
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
+}
