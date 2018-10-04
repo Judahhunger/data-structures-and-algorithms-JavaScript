@@ -5,7 +5,7 @@
 -Return the Node that is K from the end of the Linked List.
 
 ## Solution
-![Reverse Array whiteboard image](../assets/reverse_array.jpg)
+![Reverse Array whiteboard image](../../assets/reverse_array.jpg)
 ```# Reverse Array
 
 ## Challenge
