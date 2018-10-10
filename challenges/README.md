@@ -1,26 +1,21 @@
-# Reverse Array.___include this____
+# Reverse Array.
 
 ## Challenge
--Write a method for a Linked List class which takes in a number, k as a parameter.
--Return the Node that is K from the end of the Linked List.
+-Write a function called reverseArray which takes an array as an argument. -Without utilizing any of the built-in methods available to your language, return the provided array argument with elements in reversed order.
+
 
 ## Solution
 ![Reverse Array whiteboard image](../assets/reverse_array.jpg)
 ```# Reverse Array
 
-## Challenge
-___COPY WHITEBOARD CHALLENGE Q____
-Write a function called tree_intersection that takes two binary tree parameters.
-Without utilizing any of the built-in library methods available to your language, return a set of values found in both trees.
-
 ## Solution
-![Reverse Array](https://user-images.githubusercontent.com/25094584/40820396-26b8f7c4-6515-11e8-81b8-e1f540be5512.jpg)__REPLACE WITH PICTURE____
+![Reverse Array](https://user-images.githubusercontent.com/25094584/40820396-26b8f7c4-6515-11e8-81b8-e1f540be5512.jpg)
 
-- [x] Do all your work in a public repository called (Reverse Array)
-- [x] Create a branch in your repository called (Reverse Array)
-- [x] On your branch, create a file called Reverse Array, with the proper file extension for your programming language
+- [x]  Do all your work in a public repository called data-structures-and-algorithms, with a well-formatted, detailed top-level README.md
+- [x] Create a branch in your repository called array_reverse
+- [x] On your branch, create a file called array_reverse.js
 - [x] Include any language-specific configuration files required for this challenge to become an individual component, module, library, etc.
-- [x] Write a function called Reverse Array that takes two binary tree parameters.____COPY WHITEBOARD Q_____
+- [x] Write a function called reverseArray which takes an array as an argument.
 Without utilizing any of the built-in library methods available to your language, return a set of values found in both trees.
 - [x] Take a photo of your completed whiteboard, matching the example whiteboard layout.
 - [x] Copy your photo into an /assets directory in your repo
@@ -31,8 +26,4 @@ Without utilizing any of the built-in library methods available to your language
 - [x] Copy the link to your open pull request and paste it into the corresponding Canvas assignment
 - [x] Leave a description of how long this assignment took you in the comments box
 - [x] Add any additional comments you like about your process or any difficulties you may have had with the assignment
-- [x] Merge your branch into master, and delete your branch (don't worry, the PR link will still work)```
-
-Message Input
-
-Message @Zachary Schumpert
+- [x] Merge your branch into master, and delete your branch ```
