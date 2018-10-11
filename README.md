@@ -6,6 +6,8 @@
 
 
 ## Collection
-[Array Reverse Challenge]
-()
 
+[Array Reverse Challenge](https://github.com/Judahhunger/data-structures-and-algorithms-JavaScript/tree/master/array_reverse)
+
+[Array shift Challenge](https://github.com/Judahhunger/data-structures-and-algorithms-JavaScript/tree/master/array_shift)
+[Array Binary Search Challenge](https://github.com/Judahhunger/data-structures-and-algorithms-JavaScript/tree/master/array_binary_search)
