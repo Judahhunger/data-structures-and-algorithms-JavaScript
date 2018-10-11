@@ -1,15 +1,13 @@
 'use strict';
-
+let reverse_array = module.exports = {};
 //input array//
-const arr = [1, 2, 3, 4];
 
-function reverseArray(...array){
-  let reversedArray = [];
+reverse_array.reverseArray = function(...array){
+  let newArray = [];
   let count = 0;
   for (let i = array.length -1; i >= 0; i--) {
-    reverseArray[count] = array[i];
+    newArray[count] = array[i];
     count++;
   }
-  return reverseArray;
-}
-console.log(reverseArray(arr));
+  return newArray;
+};
