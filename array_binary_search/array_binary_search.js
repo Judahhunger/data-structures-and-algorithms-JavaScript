@@ -1,6 +1,7 @@
 'use strict';
+let binary_search = module.exports = {};
 
-function binarySearch(arr, key){
+binary_search.binarySearch = function(arr, key){
   let min = 0;
   let max = arr.length - 1;
   
@@ -18,10 +19,10 @@ function binarySearch(arr, key){
     }
   }
   return -1;
-}
+};
 
 
-function recursiveBinarySearch(arr, key, min=0, max=arr.length-1){
+binary_search.recursiveBinarySearch = function(arr, key, min=0, max=arr.length-1){
   let mid = (min + max ) / 2 | 0;
   
   switch(true){
@@ -30,8 +31,8 @@ function recursiveBinarySearch(arr, key, min=0, max=arr.length-1){
   case arr[mid] === key:
     return mid;
   case arr[mid] > key:
-    return recursiveBinarySearch(arr, key, min, mid -1);
+    return binary_search.recursiveBinarySearch(arr, key, min, mid -1);
   default:
-    return recursiveBinarySearch(arr, key, mid + 1, max);
+    return binary_search.recursiveBinarySearch(arr, key, mid + 1, max);
   }
-}
+};

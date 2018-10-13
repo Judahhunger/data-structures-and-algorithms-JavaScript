@@ -9,6 +9,6 @@ array_shift.insertShiftArray = function(arr,val){
   }
   arr[mid] = val;
   return arr;
-}
+};
 
 console.log(array_shift.insertShiftArray([1,2,4,5], 3));
