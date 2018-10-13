@@ -1,6 +1,7 @@
 'use strict';
+let array_shift = module.exports = {};
 
-function insertShiftArray(arr,val){
+array_shift.insertShiftArray = function(arr,val){
   let mid = Math.round(arr.length/2);
   for(var i = arr.length - 1; i >= mid; i--){
     let temp = arr[i];
@@ -8,8 +9,6 @@ function insertShiftArray(arr,val){
   }
   arr[mid] = val;
   return arr;
-}
+};
 
-console.log(insertShiftArray([1,2,4,5], 3));
-
-export default insertShiftArray;
+console.log(array_shift.insertShiftArray([1,2,4,5], 3));
