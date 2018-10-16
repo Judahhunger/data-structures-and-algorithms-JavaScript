@@ -1,6 +1,6 @@
 'use strict';
 
-const array_binary_search = require('../../array_binary_search/array_binary_search.js');
+const array_binary_search = require('../../challenges/array_binary_search/array_binary_search.js');
 
 describe('array_binary_search', () => {
 

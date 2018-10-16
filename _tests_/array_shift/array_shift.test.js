@@ -1,5 +1,5 @@
 'use strict';
-const arrayShift = require('../../array_shift/array_shift.js');
+const arrayShift = require('../../challenges/array_shift/array_shift.js');
 
 describe('array_shift', () => {
 
