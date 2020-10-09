@@ -8,7 +8,7 @@
 
 ## Solution
 ![Reverse Array whiteboard image](../../assets/reverse_array.jpg)
-```# Reverse Array
+# Reverse Array
 
 - [x]  Do all your work in a public repository called data-structures-and-algorithms, with a well-formatted, detailed top-level README.md
 - [x] Create a branch in your repository called array_reverse
